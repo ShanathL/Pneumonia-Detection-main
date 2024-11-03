@@ -8,7 +8,6 @@ from io import BytesIO
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Pnuemonia Detection Image Classifier")
 st.text("Provide URL of Chest Xray for Pneumonia Detection")
 
